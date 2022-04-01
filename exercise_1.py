@@ -4,8 +4,12 @@ acronyms = {}
 
 acronyms['LOL'] = 'Laugh out loud'
 acronyms['IDK'] = "I don't know"
-acronyms['TBH']  = 'To be honest'
-acronyms['LGTM'] = 'Looks good to me'
+acronyms['TBH']  = 'to be honest.'
+acronyms['LGTM'] = 'looks good to me'
 
 
-print("Here is the list of acronyms:" , acronyms)
+sentence = 'IDK' + ' what happened, ' + 'TBH'
+translation = acronyms.get('IDK') + ' what happened, ' + acronyms.get('TBH')
+
+print('sentence:' , sentence)
+print('translation:', translation)
